@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\olugb\\Source\\repos\\Nop.Plugin.Payments.Rave\\Nop.Plugin.Payments.Rave.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\olugb\\Source\\repos\\Nop.Plugin.Payments.Rave\\Nop.Plugin.Payments.Rave.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olugb\\Source\\repos\\Nop.Plugin.Payments.Rave\\Nop.Plugin.Payments.Rave.csproj",
+        "projectName": "Nop.Plugin.Payments.Rave",
+        "projectPath": "C:\\Users\\olugb\\Source\\repos\\Nop.Plugin.Payments.Rave\\Nop.Plugin.Payments.Rave.csproj",
+        "packagesPath": "C:\\Users\\olugb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olugb\\Source\\repos\\Nop.Plugin.Payments.Rave\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\olugb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\olugb\\Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+                "projectPath": "C:\\Users\\olugb\\Source\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
